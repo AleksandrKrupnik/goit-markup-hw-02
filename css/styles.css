@@ -4,3 +4,10 @@ ul{
 /* Цвет основного текста #757575 */
 /* Вторичный цвет текста   #212121 */
 /* Белый */
+/* Правило шрифтов font-family: 'Roboto',
+sans-serif; */
+body{
+font-family: 'Roboto',
+        sans-serif;
+}
+
