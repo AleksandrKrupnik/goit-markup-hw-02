@@ -1,13 +1,30 @@
-ul{
-    list-style: none;
-}
-/* Цвет основного текста #757575 */
-/* Вторичный цвет текста   #212121 */
-/* Белый */
-/* Правило шрифтов font-family: 'Roboto',
-sans-serif; */
+
 body{
 font-family: 'Roboto',
         sans-serif;
+        color: #757575;;
 }
-
+.list{
+    list-style: none;
+}
+.heder-logo{
+    color:#2196F3;
+}
+.header-link{
+    color: black;
+}
+.nav-link{
+    color:#212121;
+}
+.nav-link:hover,
+.nav-link:focus
+{
+    color:#2196F3;
+}
+.header-adress a{
+    color: #757575;
+}
+.header-adress a:hover,
+.header-adress a:focus{
+    color: #2196F3;
+}
