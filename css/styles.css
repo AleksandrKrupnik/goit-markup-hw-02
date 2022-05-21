@@ -54,7 +54,9 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.footer-link:hover,
+.footer-link:focus {
   color: var(--link-text-color);
 }
 .header-adress a {
