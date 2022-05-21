@@ -3,11 +3,12 @@
     --secondary-text-color: red;
     --titel-text-color:#212121 ;
     --link-text-color:#2196F3;
+    --primary-bg-color:#ffffff;
 }
 body{
 font-family: 'Roboto',
         sans-serif;
-        color: #757575;;
+        color:var(--primary-text-color);
 }
 .list{
     list-style: none;
@@ -15,25 +16,13 @@ font-family: 'Roboto',
 .heder-logo{
     color:#2196F3;
 }
-/* .header-link{
-    color: black;
-} */
-/* .nav-link,
- .singularity-title,
-.about-title,
-.names-titel
-{
-    color:#212121;
-} */
+
 .header-link,
 .nav-link,
 .section .section-title{
     color: var(--titel-text-color);
 }
-/* .section 
-.section-title{
-    color: var(--titel-text-color);
-} */
+
 .nav-link:hover,
 .nav-link:focus
 {
@@ -46,3 +35,26 @@ font-family: 'Roboto',
 .header-adress a:focus{
     color:var(--link-text-color);
 }
+.current{
+    color: var(--link-text-color);
+}
+.header-nav .current{
+    color: var(--link-text-color);
+}
+.hero-button{
+    color: var(--primary-bg-color);
+    background-color: var(--link-text-color);
+}
+.filtr a{
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.filtr:hover,
+.filtr:focus{ 
+    color: var(--link-text-color);
+}
+.filtr.current,
+.filtr.current a{
+    color: var(--primary-bg-color);
+    background-color: var(--link-text-color);
+} 
