@@ -13,8 +13,16 @@ font-family: 'Roboto',
 .header-link{
     color: black;
 }
-.nav-link{
+/* .nav-link,
+ .singularity-title,
+.about-title,
+.names-titel
+{
     color:#212121;
+} */
+.section,
+.section-title{
+    color: #212121;
 }
 .nav-link:hover,
 .nav-link:focus
