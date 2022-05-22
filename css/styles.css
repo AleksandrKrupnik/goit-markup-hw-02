@@ -153,6 +153,7 @@ h1 {
   background-color: var(--link-text-color);
 }
 .filtr {
+  font-family: inherit;
   color: var(--titel-text-color);
 
   font-weight: 500;
