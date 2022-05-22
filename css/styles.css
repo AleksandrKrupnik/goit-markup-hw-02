@@ -51,7 +51,8 @@ h1 {
   line-height: 1.71;
 }
 
-.about-titel {
+.about-title {
+  color: var(--titel-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -94,6 +95,7 @@ h1 {
   line-height: 1.36;
 }
 .hero-button {
+  font-family: inherit;
   color: var(--primary-bg-color);
   background-color: var(--link-text-color);
 
@@ -106,6 +108,7 @@ h1 {
 }
 
 .names-titel {
+  color: var(--titel-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -128,7 +131,11 @@ h1 {
   line-height: 1.19;
 }
 .address {
+  font-style: inherit;
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .filtr a {
