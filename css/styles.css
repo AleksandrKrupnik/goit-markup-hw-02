@@ -114,9 +114,10 @@ h1 {
   line-height: 1.19;
 }
 
-.footer,
-.footer-link {
+.footer {
   background-color: #2f303a;
+}
+.footer-link {
   color: rgba(255, 255, 255, 0.6);
 
   font-size: 14px;
@@ -167,8 +168,7 @@ h1 {
 }
 .portfolio-text {
   color: var(--primary-text-color);
-
-  font-style: normal;
+  font-size: 16px;
 
   line-height: 1.88;
 }
