@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background-color: #ffffff;
+  letter-spacing: 0.03em;
 }
 h1 {
   text-transform: uppercase;
@@ -56,6 +57,8 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .nav-link,
 .header-mail,
@@ -93,6 +96,8 @@ h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero-button {
   font-family: inherit;
@@ -102,6 +107,8 @@ h1 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+
+  letter-spacing: 0.06em;
 }
 .section-team {
   background-color: #f5f4fa;
@@ -112,6 +119,11 @@ h1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
+}
+.worker-text {
+  line-height: 1.19;
+  text-align: center;
 }
 
 .footer {
@@ -134,7 +146,7 @@ h1 {
 .address {
   font-style: inherit;
   color: #ffffff;
-  font-weight: 400;
+
   font-size: 14px;
   line-height: 1.71;
 }
@@ -156,6 +168,7 @@ h1 {
 .filtr {
   font-family: inherit;
   color: var(--titel-text-color);
+  font-size: 16px;
 
   font-weight: 500;
 
@@ -170,7 +183,6 @@ h1 {
 }
 .portfolio-text {
   color: var(--primary-text-color);
-  font-size: 16px;
 
   line-height: 1.88;
 }
